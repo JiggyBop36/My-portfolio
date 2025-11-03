@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Legal Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #000000, #0a1a2f);
+            color: white;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0.5rem 0;
+        }
+
+        p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 1rem auto;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }
+
+        a {
+            color: #4da6ff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #99ccff;
+        }
+
+        .nav {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px 15px;
+            border-radius: 8px;
+            color: white;
+        }
+
+        .nav a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <section id="welcome">
+        <h1>Welcome to My Portfolio</h1>
+        <h2>Omoleye Moyinoluwa Jeremiah</h2>
+        <p>A final-year Law student at the University of Lagos with growing expertise in technology law, data privacy, intellectual
+        property, fintech regulation, and startup advisory. Experienced in legal research, document drafting, and regulatory
+        analysis. Motivated to contribute to a firm where law, technology, and innovation intersect to help clients stay
+        compliant, protected, and strategically positioned in emerging digital markets.</p>
+    </section>
+
+    <section id="experience">
+        <h2>What I Do</h2>
+        <p>I am a Legal Researcher and Writer with a focus on legal analysis, policy interpretation, and research-based
+            writing.</p>
+        <h3>Experience</h3>
+        <p>Worked as a Legal Researcher for Copley Partners and WK Shittu & Co.</p>
+    </section>
+
+    <section id="articles">
+        <h2>My Articles</h2>
+        <ul>
+            <li><a href="#">Article Title 1</a></li>
+            <li><a href="#">Article Title 2</a></li>
+            <li><a href="#">Article Title 3</a></li>
+        </ul>
+    </section>
+
+    <div class="nav">
+        <a href="#welcome">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#articles">Articles</a>
+    </div>
+</body>
+
+</html>
